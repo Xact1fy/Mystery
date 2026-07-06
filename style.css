@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+    text-align:center;
+}
+
+.container{
+    width:90%;
+}
+
+#timer{
+    font-size:10rem;
+    font-weight:bold;
+    letter-spacing:4px;
+}
+
+#context{
+    margin-top:40px;
+    font-size:1.8rem;
+    color:#d0d0d0;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.5;
+}
+
+@media(max-width:700px){
+    #timer{
+        font-size:4rem;
+    }
+
+    #context{
+        font-size:1.2rem;
+    }
+}
